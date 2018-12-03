@@ -6,12 +6,12 @@
     "bot",
     "jeopardy"
   ],
-  "repository": "https://github.com/gesteves/trebekbot",
+  "repository": "https://github.com/jaredsilver/trebekbot",
   "addons": [
     "rediscloud",
     "papertrail"
   ],
-  "success_url": "https://github.com/gesteves/trebekbot#usage",
+  "success_url": "https://github.com/jaredsilver/trebekbot#usage",
   "env": {
     "OUTGOING_WEBHOOK_TOKEN": {
       "description": "The token of the Slack outgoing webhook you'll use for this. Set it up at https://slack.com/services/new/outgoing-webhook. You'll have to point it to this app's URL once it's deployed.",
